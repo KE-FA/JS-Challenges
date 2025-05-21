@@ -147,7 +147,7 @@ function sumEvenNumbers(n){
 }
 
 let sum123 = sumEvenNumbers(12)
-// console.log(sum)
+console.log(sum)
 
 // Challenge 12: Multiply by Itself
 
@@ -160,7 +160,7 @@ function powerUp(num, times) {
     return result
 }
 
-// console.log(powerUp(2, 3))
+console.log(powerUp(2, 3))
 
 //challenge 13: Factorial Calculator
 function factorial(n){
@@ -171,7 +171,7 @@ function factorial(n){
     return result
 }
 
-// console.log(factorial(6))
+console.log(factorial(6))
 
 //Challenge 14: Multiple Sum
 
@@ -183,7 +183,7 @@ function sumMultiples(n, divisor){
         }
     return result
 }
-// console.log(sumMultiples(10, 5))
+console.log(sumMultiples(10, 5))
 
 
 //Challenge 15: Sum of Digits
