@@ -133,6 +133,7 @@ function perimeter(letter, num){
 }
 perimeter("c" , 4)
 
+
 //Challenge 11: Sum of Even Numbers
 function sumEvenNumbers(n){
     let sum = 0
@@ -146,8 +147,8 @@ function sumEvenNumbers(n){
     return sum
 }
 
-let sum123 = sumEvenNumbers(12)
-console.log(sum)
+let summ = sumEvenNumbers(12)
+console.log(`The sum of even numbers is ${summ}`)
 
 // Challenge 12: Multiply by Itself
 
@@ -160,7 +161,7 @@ function powerUp(num, times) {
     return result
 }
 
-console.log(powerUp(2, 3))
+console.log(powerUp(3, 3))
 
 //challenge 13: Factorial Calculator
 function factorial(n){
@@ -171,7 +172,8 @@ function factorial(n){
     return result
 }
 
-console.log(factorial(6))
+let y = (factorial(5))
+console.log(`The factorial is ${y}`)
 
 //Challenge 14: Multiple Sum
 
@@ -198,4 +200,4 @@ function sumDigits(num){
     return sum
 }
 let results = sumDigits(123)
-console.log(results)
+console.log(`The sum digits is ${results}`)
